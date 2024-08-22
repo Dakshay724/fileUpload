@@ -1,0 +1,89 @@
+.app-container {
+  padding: 20px;
+}
+
+.file-upload-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.onDragOver {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px #efefef;
+}
+
+.fileName {
+  color: black;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  line-height: 12px;
+  margin: 0;
+}
+
+.fileDelete {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: red;
+  font-size: 15px;
+}
+
+.file__add {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.file_plus_Icon {
+  font-size: 24px;
+  color: #000;
+}
+
+.file-preview {
+  display: flex;
+  width: 19%;
+}
+
+.progress {
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  height: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  transition: width 0.4s ease;
+}
+
+.file-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.progress-circle {
+  margin-left: 20px;
+}
