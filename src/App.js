@@ -12,7 +12,6 @@ const App = () => {
   return (
     <center>
       <div className="app-container">
-        <h1>File Upload App</h1>
         <FileUpload />
       </div>
     </center>
